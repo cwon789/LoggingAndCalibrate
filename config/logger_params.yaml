@@ -1,0 +1,9 @@
+odom_logger_node:
+  ros__parameters:
+    # Input topic names
+    wheel_odom_topic: "/wheel_odom"
+    lidar_odom_topic: "/lidar_odom"
+    
+    # Output file paths
+    wheel_odom_file: "wheel_odom.txt"
+    lidar_odom_file: "lidar_odom.txt"
